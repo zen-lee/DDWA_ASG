@@ -38,7 +38,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
             <h2><?php
 	            $sql = "SELECT Student_name "; //Remember spacing! If not SQL string will be stuck tog.
 	            $sql .= "FROM student "; //Reading from "Mutant" table
-            	$sql .= "WHERE Student_id = 6"; //Alphabetical order
+            	$sql .= "WHERE Student_id = 7"; //Alphabetical order
 	            $result = $connection->query($sql);
 	
 	            if ($result->num_rows > 0) {
@@ -69,7 +69,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
           <?php
 	            $sql = "SELECT Student_contact "; //Remember spacing! If not SQL string will be stuck tog.
 	            $sql .= "FROM student "; //Reading from "Mutant" table
-            	$sql .= "WHERE Student_id = 6"; //Alphabetical order
+            	$sql .= "WHERE Student_id = 7"; //Alphabetical order
 	            $result = $connection->query($sql);
 	
 	            if ($result->num_rows > 0) {
